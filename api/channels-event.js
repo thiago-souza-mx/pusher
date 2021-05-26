@@ -19,4 +19,4 @@ module.exports = (req, res) => {
   channels.trigger('event-channel', 'event-name', data, () => {
     res.status(200).end('sent event successfully')
   })
-}
+} 
